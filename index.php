@@ -111,6 +111,10 @@ if(!isset($_SESSION['username'])) {
 
         <!-- Submit button -->
         <p><input type="submit" value="Submit"></p>
+        <div class="logout-btn">
+                <p><a href="logout.php"><b>Logout<b></a></p>
+            </div>
+        </div>
     </form>
 </body>
 </html>
